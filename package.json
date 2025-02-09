@@ -1,0 +1,24 @@
+{
+  "name": "legacy-shortcut-manager",
+  "description": "Legacy Shortcut Manager",
+  "private": true,
+  "author": "Philipp Kewisch <mozilla@kewis.ch>",
+  "license": "MPL-2.0",
+  "scripts": {
+    "build": "web-ext build -s src -o",
+    "clean": "rm -f web-ext-artifacts",
+    "lint": "commitlint -f main && eslint src"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^19.3.0",
+    "@commitlint/config-conventional": "^19.2.2",
+    "conventional-changelog-cli": "^5.0.0",
+    "eslint": "^8.44.0",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-fetch-options": "^0.0.5",
+    "eslint-plugin-html": "^8.1.1",
+    "eslint-plugin-prettier": "^5.1.3",
+    "prettier": "^3.3.3",
+    "web-ext": "^8.2.0"
+  }
+}

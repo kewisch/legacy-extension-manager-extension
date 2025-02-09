@@ -1,0 +1,21 @@
+[{
+  "namespace": "legacyshortcuts",
+  "functions": [
+    {
+      "name": "updateCommand",
+      "type": "function",
+      "async": true,
+      "parameters": [
+        { "name": "extensionId", "type": "string" },
+        {
+          "name": "options",
+          "type": "object",
+          "properties": {
+            "name": { "type": "string" },
+            "shortcut": { "type": "string" }
+          }
+        }
+      ]
+    }
+  ]
+}]
